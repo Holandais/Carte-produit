@@ -1,0 +1,119 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  margin: 0;
+}
+
+/* Carte produit */
+
+.product-card {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  width: 380px;
+  overflow: hidden;
+}
+
+/* En-tête */
+
+.product-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  background: #1a1a1a;
+  color: #ffffff;
+}
+
+.product-header h2 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.badge {
+  background: #e74c3c;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/* Image */
+
+.product-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Caractéristiques */
+
+.product-specs {
+  list-style: none;
+  padding: 16px;
+  margin: 0;
+  font-size: 14px;
+  color: #444444;
+}
+
+.product-specs li {
+  margin-bottom: 8px;
+}
+
+/* Pied de carte */
+
+.product-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  border-top: 1px solid #eeeeee;
+}
+
+.product-price {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+/* Ancien prix barré */
+
+.old-price {
+  text-decoration: line-through;
+  text-decoration-thickness: 2px; /* ligne plus visible */
+  color: #888888;
+  margin-right: 10px;
+}
+
+/* Nouveau prix en promo */
+
+.new-price {
+  color: #27ae60;
+  font-weight: bold;
+}
+
+/* Stock */
+
+.stock {
+  color: #e67e22;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+/* Bouton */
+
+.product-button {
+  background: #27ae60;
+  color: #ffffff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.product-button:hover {
+  background: #219150;
+}
