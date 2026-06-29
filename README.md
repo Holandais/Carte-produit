@@ -1,1 +1,2 @@
 # Carte-produit
+Ce projet est une carte produit e-commerce moderne réalisée en HTML et CSS, qui présente un smartphone Samsung Galaxy S26 Ultra : image du produit avec effet de survol, badges de promotion, ancien prix barré, nouveau prix mis en avant, caractéristiques techniques, stock restant et bouton d’achat. Il me sert de projet d’entraînement pour pratiquer la mise en page et le design d’interface web. 
