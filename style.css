@@ -7,8 +7,6 @@ body {
   margin: 0;
 }
 
-/* Carte produit */
-
 .product-card {
   background: #ffffff;
   border-radius: 12px;
@@ -16,8 +14,6 @@ body {
   width: 380px;
   overflow: hidden;
 }
-
-/* En-tête */
 
 .product-header {
   display: flex;
@@ -41,7 +37,6 @@ body {
   font-weight: bold;
 }
 
-/* Image */
 
 .product-image {
   width: 100%;
@@ -94,15 +89,12 @@ body {
   font-weight: bold;
 }
 
-/* Stock */
 
 .stock {
   color: #e67e22;
   font-weight: 600;
   margin-bottom: 12px;
 }
-
-/* Bouton */
 
 .product-button {
   background: #27ae60;
